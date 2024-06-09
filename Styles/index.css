@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(187, 18, 18, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+header hr {
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  height: 1px;
+}
+.logo {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 200px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.abrir-menu,.cerrar-menu {
+  display: none;
+}
+
+
+
+.nav {
+  background-color: rgba(12, 151, 151, 0);
+  width: 60%;
+  display: flex;
+}
+.nav-list {
+  background-color: rgba(235, 137, 8, 0);
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  bottom: 20px;
+  padding: 10px;
+  position: relative;
+}
+.nav-list a {
+  text-decoration: none;
+  font-size: 20px;
+  flex-wrap: wrap;
+  font-weight: bold;
+  color: black;
+}
+.iconCart{
+ height: 20px;;
+ background-color: rgba(0, 255, 255, 0);
+ border: none;
+}
+.numeroCarrito {
+  position: absolute;
+  right: -7px;
+  background-color: rgba(110, 109, 109, 0);
+  color: rgba(0, 0, 0, 0.637);
+  border-radius: 20%;
+  padding: 2px 5px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    background-color: rgba(240, 11, 11, 0);
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  .logo {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    margin-right: 150px;
+  }
+  .iconCart{
+    height: 20px;;
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+   }
+   .numeroCarrito {
+    position: absolute;
+     left: 100px;
+     background-color: rgba(20, 143, 102, 0);
+     color: rgb(255, 255, 255);
+     border-radius: 20%;
+     padding: 2px 5px;
+     font-size: 15px;
+     display: inline-block;
+   }
+  .abrir-menu,
+  .cerrar-menu {
+    background-color: rgba(0, 255, 255, 0);
+    display: block;
+    border: 0; 
+    font-size: 1.45rem;
+    cursor: pointer;
+
+  }
+  .cerrar-menu {
+    margin-right: 20px;
+    color: #fff;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000a1;
+    box-shadow: 0 0 0 1 100vmax rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 30px;
+  }
+
+  .nav-list {
+    background-color: rgba(4, 170, 170, 0);
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    position: none;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+  .nav-list a {
+    color: rgb(253, 253, 253);
+  }
+
+  .nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}
