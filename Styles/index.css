@@ -96,11 +96,11 @@ header hr {
   display: flex;
   justify-content: center;
   user-select: none;
-  
 }
-.container-card-imagenes {
+.container-card {
+  padding: 10px;
   background-color: rgba(24, 223, 223, 0);
-  height: 80vh;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 80%;
@@ -108,13 +108,13 @@ header hr {
   justify-content: center;
   gap: 50px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .card {
-  
-  background-color: #a5e70c00;
-  height: 550px;
-  width: 400px;
+  background-color: #98c92700;
+  height: 450px;
+  width: 300px;
   margin: auto;
   -webkit-box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.77);
@@ -122,12 +122,13 @@ header hr {
   margin-top: 100px;
 }
 .card-img {
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
 .card-title {
   color: #838181;
   padding: 10px;
+  font-size: 20px;
 }
 .card-precio {
   color: #838181;
@@ -135,7 +136,7 @@ header hr {
 }
 
 .container-button-card {
-  background-color: #ffffff00;
+  background-color: #b90a0a00;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -155,6 +156,31 @@ header hr {
   color: #ffffff;
   background-color: #000000;
 }
+
+/*section sobre nosotros*/
+.Sobre-Nosotros {
+  background-color: #838181;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.img-Sobre-nosotros {
+  height: 600px;
+}
+.Sobre-nosotros-info {
+  background-color: #ad1a1a;
+  height: 600px;
+  text-align: left;
+}
+.Sobre-nosotros-info h1,
+p {
+  background-color: #709912e5;
+  margin: auto;
+}
+
 @media screen and (max-width: 800px) {
   header {
     background-color: rgba(240, 11, 11, 0);
