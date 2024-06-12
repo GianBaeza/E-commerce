@@ -2,7 +2,14 @@
   padding: 0;
   margin: 0;
 }
-
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 header {
   background-color: rgba(187, 18, 18, 0);
   display: flex;
@@ -81,7 +88,6 @@ header hr {
   font-size: 60px;
   text-align: right;
   padding: 40px;
-  overflow: hidden;
   height: 500px;
   margin-bottom: 80px;
   color: #000000;
@@ -108,7 +114,6 @@ header hr {
   justify-content: center;
   gap: 50px;
   padding: 20px;
-  overflow: hidden;
 }
 
 .card {
@@ -151,34 +156,164 @@ header hr {
   border-radius: 10px;
   color: #0f0f0f;
   transition: ease 0.6s;
+  margin-bottom: 5px;
 }
 .button-card:hover {
   color: #ffffff;
   background-color: #000000;
 }
 
+/*carrusel*/
+.carrusel {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #1b191900;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid black;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  height: 40px;
+  transition: 1ms ease;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+
+
 /*section sobre nosotros*/
 .Sobre-Nosotros {
-  background-color: #838181;
-  height: 100vh;
+  background-color: #83818100;
+  height: 90vh;
   width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 .img-Sobre-nosotros {
   height: 600px;
 }
 .Sobre-nosotros-info {
-  background-color: #ad1a1a;
+  background-color: #ad1a1a00;
   height: 600px;
-  text-align: left;
+  width: 40%;
+  padding-top: 50px;
+  overflow: hidden;
 }
 .Sobre-nosotros-info h1,
 p {
-  background-color: #709912e5;
+  background-color: #71991200;
+  display: flex;
+  align-items: center;
+}
+.Sobre-Nosotros h1 {
+  font-size: 50px;
+}
+.Sobre-Nosotros p {
+  background-color: #83818100;
+  width: 500px;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.article-sobre-nosotros {
+  display: none;
+  background-color: #e0060600;
+  position: absolute;
+  width: 400px;
+}
+footer {
+  background-color: #df232300;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 70vh;
+  width: 80%;
+  align-items: center;
   margin: auto;
+}
+.mapa {
+  height: 510px;
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+form {
+  background-color: #c9c9c91e;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.form-h1 {
+  color: #000000;
+  text-align: center;
+}
+.form-redes {
+  background-color: #00000000;
+  height: 500px;
+  width: 200px;
+  font-display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.form-redes li {
+  text-decoration: none;
+  padding: 5px;
+  list-style: none;
+  padding: 5px;
+}
+.form-redes li a {
+  background-color: #00000000;
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+.icon-redes {
+  height: 20px;
+  margin-right: 5px;
+}
+form input {
+  background-color: #00000000;
+  border: none;
+  border-bottom: 1px solid black;
+}
+form textarea {
+  background-color: #00000000;
+  border: none;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 5px;
+}
+form button {
+  width: 150px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
