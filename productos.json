@@ -1,0 +1,240 @@
+{
+  "products": [
+    {
+      "type": "remera",
+      "name": "Remera Clásica",
+      "price": 20.99,
+      "description": "Una remera clásica con el logo de King of the Kongo.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Deportiva",
+      "price": 25.99,
+      "description": "Remera deportiva de alta calidad, perfecta para el entrenamiento.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Casual",
+      "price": 22.99,
+      "description": "Remera casual ideal para el día a día.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Vintage",
+      "price": 27.99,
+      "description": "Remera con diseño vintage, cómoda y elegante.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Running",
+      "price": 23.99,
+      "description": "Perfecta para correr y hacer ejercicio.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Polo",
+      "price": 28.99,
+      "description": "Remera tipo polo con un toque de elegancia.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Manga Larga",
+      "price": 26.99,
+      "description": "Remera de manga larga para los días más frescos.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Slim Fit",
+      "price": 24.99,
+      "description": "Remera ajustada que resalta la figura.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Oversized",
+      "price": 29.99,
+      "description": "Remera de estilo oversized para mayor comodidad.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": "https://example.com/images/remera_oversized.jpg"
+    },
+    {
+      "type": "remera",
+      "name": "Remera Básica",
+      "price": 19.99,
+      "description": "Remera básica disponible en varios colores.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Gráfica",
+      "price": 21.99,
+      "description": "Remera con gráficos únicos y originales.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": "https://example.com/images/remera_grafica.jpg"
+    },
+    {
+      "type": "remera",
+      "name": "Remera Deportiva Sin Mangas",
+      "price": 22.99,
+      "description": "Remera sin mangas para una mayor ventilación durante el ejercicio.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Técnica",
+      "price": 30.99,
+      "description": "Remera técnica diseñada para alto rendimiento.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": "https://example.com/images/remera_tecnica.jpg"
+    },
+    {
+      "type": "remera",
+      "name": "Remera Con Capucha",
+      "price": 32.99,
+      "description": "Remera con capucha para un estilo casual y cómodo.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Eco-Friendly",
+      "price": 24.99,
+      "description": "Remera hecha con materiales ecológicos.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera de Algodón Orgánico",
+      "price": 27.99,
+      "description": "Remera suave y cómoda hecha de algodón orgánico.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera de Rayas",
+      "price": 22.99,
+      "description": "Remera con diseño de rayas para un look casual.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": "https://example.com/images/remera_rayas.jpg"
+    },
+    {
+      "type": "remera",
+      "name": "Remera Estampada",
+      "price": 26.99,
+      "description": "Remera con estampados divertidos y originales.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera de Cuello V",
+      "price": 21.99,
+      "description": "Remera con cuello en V, elegante y cómoda.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera Tie-Dye",
+      "price": 23.99,
+      "description": "Remera con diseño tie-dye, única y colorida.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    },
+    {
+      "type": "remera",
+      "name": "Remera de Manga Corta",
+      "price": 19.99,
+      "description": "Remera de manga corta, ideal para el verano.",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": [
+        "https://example.com/images/remera_deportiva_1.jpg",
+        "https://example.com/images/remera_deportiva_2.jpg",
+        "https://example.com/images/remera_deportiva_3.jpg"
+      ]
+    }
+  ]
+}

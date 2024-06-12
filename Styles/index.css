@@ -179,7 +179,7 @@ header hr {
   margin: auto;
   margin-top: 60px;
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   border: 1px solid black;
 }
 
@@ -195,8 +195,6 @@ header hr {
   margin: auto;
   object-fit: cover;
 }
-
-
 
 /*section sobre nosotros*/
 .Sobre-Nosotros {
@@ -301,6 +299,7 @@ form input {
   background-color: #00000000;
   border: none;
   border-bottom: 1px solid black;
+  padding: 5px;
 }
 form textarea {
   background-color: #00000000;
