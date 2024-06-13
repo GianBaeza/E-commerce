@@ -2,6 +2,7 @@
   {
     "id": "abrigo-01",
     "titulo": "Remera Oversize",
+    "descripcion": "Remera estilo oversize con un diseño moderno y holgado, ideal para quienes buscan comodidad y estilo urbano. Fabricada con materiales ligeros y transpirables, perfecta para cualquier ocasión casual.",
     "imagen": [
       "./imgjson/1card.jpg",
       "./imgjson/1cards.jpg",
@@ -16,6 +17,7 @@
   {
     "id": "abrigo-02",
     "titulo": "Buzo Oversize",
+    "descripcion": "Buzo amplio y confortable con un diseño oversize que proporciona libertad de movimiento y estilo. Perfecto para los días fríos gracias a su tela suave y cálida. Combínalo con tus jeans favoritos para un look relajado y moderno.",
     "imagen": [
       "./imgjson/2card.jpg",
       "./imgjson/2cardss.jpg",
@@ -30,6 +32,7 @@
   {
     "id": "abrigo-03",
     "titulo": "CamizaSaco",
+    "descripcion": "Camisa estilo saco con un corte elegante y sofisticado, ideal para ocasiones formales o semiformales. Su tejido ligero y suave ofrece confort durante todo el día, mientras que su diseño versátil permite combinarla fácilmente con diferentes prendas.",
     "imagen": [
       "./imgjson/3card.jpg",
       "./imgjson/3cards.jpg",
@@ -44,6 +47,7 @@
   {
     "id": "abrigo-04",
     "titulo": "Remera Oheen",
+    "descripcion": "Remera de diseño sencillo pero elegante, perfecta para el uso diario. Fabricada con algodón de alta calidad que garantiza durabilidad y comodidad. Ideal para quienes prefieren un estilo minimalista con un toque de distinción.",
     "imagen": [
       "./imgjson/4cards.jpg",
       "./imgjson/4cardss.jpg",
@@ -57,7 +61,8 @@
   },
   {
     "id": "abrigo-05",
-    "titulo": "Top Doja Cat ",
+    "titulo": "Top Doja Cat",
+    "descripcion": "Top con un diseño moderno inspirado en la moda urbana contemporánea. Su tela ligera y ajuste cómodo lo convierten en la elección perfecta para un look fresco y casual. Ideal para combinar con shorts o faldas en cualquier temporada.",
     "imagen": [
       "./imgjson/5card.jpg",
       "./imgjson/5cardss.jpg",
@@ -72,6 +77,7 @@
   {
     "id": "camiseta-06",
     "titulo": "Remera KOTK Oversize",
+    "descripcion": "Remera de la colección KOTK con un estilo urbano y moderno. Su diseño oversize y suave tejido proporcionan confort y libertad de movimiento. Perfecta para quienes buscan destacar con un look casual y desenfadado.",
     "imagen": [
       "./imgjson/6cards.jpg",
       "./imgjson/6cardss.jpg",
@@ -87,6 +93,7 @@
   {
     "id": "camiseta-07",
     "titulo": "Style Like x KOF-K",
+    "descripcion": "Camiseta con diseño exclusivo de la colaboración Style Like x KOF-K, combinando estilo y creatividad. Ideal para quienes buscan prendas únicas que reflejen su personalidad y pasión por la moda urbana.",
     "imagen": [
       "./imgjson/7card.jpg",
       "./imgjson/7cardss.jpg",
@@ -101,6 +108,7 @@
   {
     "id": "abrigo-08",
     "titulo": "13 KOF-K",
+    "descripcion": "Camiseta con estampado KOF-K 13, perfecta para los amantes del estilo urbano y el diseño gráfico. Fabricada con materiales de alta calidad que garantizan confort y durabilidad. Ideal para llevar en cualquier ocasión casual.",
     "imagen": [
       "./imgjson/8card.jpg",
       "./imgjson/8cards.jpg",
@@ -115,6 +123,7 @@
   {
     "id": "abrigo-09",
     "titulo": "Buzo Crop",
+    "descripcion": "Buzo estilo crop top, ideal para lucir un look moderno y juvenil. Su diseño corto y ajustado complementa perfectamente con pantalones de tiro alto. Fabricado con tejidos suaves que proporcionan confort durante todo el día.",
     "imagen": [
       "./imgjson/9cards.jpg",
       "./imgjson/9cardss.jpg",
@@ -130,6 +139,7 @@
   {
     "id": "abrigo-010",
     "titulo": "Pantalon K K11",
+    "descripcion": "Pantalón K K11 con un diseño innovador y funcional. Ideal para quienes buscan prendas versátiles que se adapten a cualquier ocasión. Fabricado con materiales de alta calidad que ofrecen confort y estilo.",
     "imagen": [
       "./imgjson/10cards.jpg",
       "./imgjson/10cardss.jpg",
@@ -145,6 +155,7 @@
   {
     "id": "abrigo-011",
     "titulo": "Parachute Y2K",
+    "descripcion": "Pantalón Parachute Y2K con un estilo retro y moderno al mismo tiempo. Perfecto para quienes buscan prendas únicas y de tendencia. Combínalo con tus zapatillas favoritas para un look casual y distinguido.",
     "imagen": [
       "./imgjson/11cards.jpg",
       "./imgjson/11cardss.jpg",
@@ -159,6 +170,7 @@
   {
     "id": "abrigo-012",
     "titulo": "Parachute Brand Deni12",
+    "descripcion": "Pantalón Parachute Brand Deni12, ideal para un look casual y elegante. Su diseño versátil y confortable lo convierte en la elección perfecta para cualquier ocasión. Fabricado con materiales resistentes y duraderos.",
     "imagen": [
       "./imgjson/12card.jpg",
       "./imgjson/12cards.jpg",
