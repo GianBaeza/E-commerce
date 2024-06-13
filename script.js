@@ -18,10 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const start = () => {
     intervalo = setInterval(function () {
       carrusel.scrollLeft = carrusel.scrollLeft + step;
-      if (carrusel.scrollLeft == maxScrollLeft) {
-        step = step * -1;
-      } else if (carrusel.scrollLeft <= 0) {
-        step = step * 1;
+      if (carrusel.scrollLeft >= maxScrollLeft || carrusel.scrollLeft <= 0) {
+        step = -step; // Invierte la dirección del desplazamiento
       }
     }, 10);
   };
@@ -62,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     containerCards.innerHTML = "";
     console.log(productos);
     productos.forEach((item, index) => {
-      console.log(index)
+      console.log(index);
       const { id, imagen, titulo, precio, sizes, categoria } = item;
       const divCard = document.createElement("div");
       divCard.classList.add("card");
@@ -117,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const priceElement = document.createElement("p");
       priceElement.classList.add("card-precio");
-      priceElement.textContent = `$ ${precio}`
+      priceElement.textContent = `$ ${precio}`;
 
       const containerButtonCar = document.createElement("div");
       containerButtonCar.classList.add("container-button-card");
