@@ -34,7 +34,7 @@
   </head>
   <body>
     <header>
-      <h1 class="logo">Kof-K</h1>
+      <h1 id="logo" class="logo">Kof-K</h1>
 
       <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
       <nav id="nav" class="nav">
@@ -43,9 +43,9 @@
         </button>
         <hr />
         <ul class="nav-list">
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Indumentaria</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a class="fixed" href="#form">Contacto</a></li>
+          <li><a class="fixed" href="#Indumentaria">Indumentaria</a></li>
+          <li><a class="fixed" href="#sobreNosotros">Sobre Nosotros</a></li>
           <li>
             <a href="./index.html" class="iconCart">
               <i class="bi bi-bag"></i><span class="numeroCarrito">3</span>
@@ -72,7 +72,7 @@
       </main>
     </div>
 
-    <h2 class="card-title-h2">Indumentaria</h2>
+    <h2 id="Indumentaria" class="card-title-h2">Indumentaria</h2>
     <hr class="card-title-hr" />
 
     <section id="container-Card" class="container-card"></section>
@@ -115,7 +115,7 @@
       </div>
     </div>
 
-    <section class="Sobre-Nosotros">
+    <section id="sobreNosotros" class="Sobre-Nosotros">
       <img
         src="./imagenes/Professional Setup Photo Collage Poster in Grey Beige Simple and Minimal Style (1).png"
         alt="img"
@@ -196,6 +196,9 @@
             />GitHub</a
           >
         </li>
+      
+          <a href="#logo" class="inicioFooter">Ir al Inicio</a>
+        
       </ul>
 
       <form id="form">

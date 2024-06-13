@@ -285,7 +285,7 @@ form {
   text-decoration: none;
   padding: 5px;
   list-style: none;
-  padding: 5px;
+  padding: 10px;
 }
 .form-redes li a {
   background-color: #00000000;
@@ -316,7 +316,14 @@ form button {
   border: none;
   border-radius: 5px;
 }
-
+.inicioFooter {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  padding: 5px;
+  
+}
 @media screen and (max-width: 800px) {
   header {
     background-color: rgba(240, 11, 11, 0);
