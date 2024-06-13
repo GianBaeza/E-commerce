@@ -70,7 +70,7 @@
     "precio": 1000
   },
   {
-    "id": "camiseta-01",
+    "id": "camiseta-06",
     "titulo": "Camiseta 01",
     "imagen": [
       "./imgjson/6cards.jpg",
@@ -85,7 +85,7 @@
     "precio": 1000
   },
   {
-    "id": "camiseta-02",
+    "id": "camiseta-07",
     "titulo": "Camiseta 02",
     "imagen": [
       "./imgjson/7card.jpg",
@@ -95,6 +95,76 @@
     "categoria": {
       "nombre": "Camisetas",
       "id": "camisetas"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-08",
+    "titulo": "Abrigo 04",
+    "imagen": [
+      "./imgjson/4cards.jpg",
+      "./imgjson/4cardss.jpg",
+      "./imgjson/4cardsss.jpg"
+    ],
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-09",
+    "titulo": "Abrigo 04",
+    "imagen": [
+      "./imgjson/4cards.jpg",
+      "./imgjson/4cardss.jpg",
+      "./imgjson/4cardsss.jpg"
+    ],
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-010",
+    "titulo": "Abrigo 04",
+    "imagen": [
+      "./imgjson/4cards.jpg",
+      "./imgjson/4cardss.jpg",
+      "./imgjson/4cardsss.jpg"
+    ],
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-011",
+    "titulo": "Abrigo 04",
+    "imagen": [
+      "./imgjson/4cards.jpg",
+      "./imgjson/4cardss.jpg",
+      "./imgjson/4cardsss.jpg"
+    ],
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-012",
+    "titulo": "Abrigo 04",
+    "imagen": [
+      "./imgjson/4cards.jpg",
+      "./imgjson/4cardss.jpg",
+      "./imgjson/4cardsss.jpg"
+    ],
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
     },
     "precio": 1000
   }
