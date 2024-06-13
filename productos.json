@@ -1,77 +1,77 @@
 [
   {
     "id": "abrigo-01",
-    "titulo": "Abrigo 01",
+    "titulo": "Remera Oversize",
     "imagen": [
       "./imgjson/1card.jpg",
       "./imgjson/1cards.jpg",
       "./imgjson/1cardss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 25000
   },
   {
     "id": "abrigo-02",
-    "titulo": "Abrigo 02",
+    "titulo": "Buzo Oversize",
     "imagen": [
       "./imgjson/2card.jpg",
       "./imgjson/2cardss.jpg",
       "./imgjson/2cardss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "Buzo",
+      "id": "Buzo"
     },
-    "precio": 1000
+    "precio": 32000
   },
   {
     "id": "abrigo-03",
-    "titulo": "Abrigo 03",
+    "titulo": "CamizaSaco",
     "imagen": [
       "./imgjson/3card.jpg",
       "./imgjson/3cards.jpg",
       "./imgjson/3cardsss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "CamizaSaco",
+      "id": "CamizaSaco"
     },
-    "precio": 1000
+    "precio": 43000
   },
   {
     "id": "abrigo-04",
-    "titulo": "Abrigo 04",
+    "titulo": "Remera Oheen",
     "imagen": [
       "./imgjson/4cards.jpg",
       "./imgjson/4cardss.jpg",
       "./imgjson/4cardsss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 15000
   },
   {
     "id": "abrigo-05",
-    "titulo": "Abrigo 05",
+    "titulo": "Top Doja Cat ",
     "imagen": [
       "./imgjson/5card.jpg",
       "./imgjson/5cardss.jpg",
       "./imgjson/5cardsss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 12000
   },
   {
     "id": "camiseta-06",
-    "titulo": "Camiseta 01",
+    "titulo": "Remera KOTK Oversize",
     "imagen": [
       "./imgjson/6cards.jpg",
       "./imgjson/6cardss.jpg",
@@ -79,93 +79,95 @@
       "./imgjson/6cardsss.jpg"
     ],
     "categoria": {
-      "nombre": "Camisetas",
-      "id": "camisetas"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 23000
   },
   {
     "id": "camiseta-07",
-    "titulo": "Camiseta 02",
+    "titulo": "Style Like x KOF-K",
     "imagen": [
       "./imgjson/7card.jpg",
       "./imgjson/7cardss.jpg",
       "./imgjson/7card.jpg"
     ],
     "categoria": {
-      "nombre": "Camisetas",
-      "id": "camisetas"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 27000
   },
   {
     "id": "abrigo-08",
-    "titulo": "Abrigo 04",
+    "titulo": "13 KOF-K",
     "imagen": [
-      "./imgjson/4cards.jpg",
-      "./imgjson/4cardss.jpg",
-      "./imgjson/4cardsss.jpg"
+      "./imgjson/8card.jpg",
+      "./imgjson/8cards.jpg",
+      "./imgjson/8cardss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "remera",
+      "id": "remera"
     },
-    "precio": 1000
+    "precio": 29420
   },
   {
     "id": "abrigo-09",
-    "titulo": "Abrigo 04",
+    "titulo": "Buzo Crop",
     "imagen": [
-      "./imgjson/4cards.jpg",
-      "./imgjson/4cardss.jpg",
-      "./imgjson/4cardsss.jpg"
+      "./imgjson/9cards.jpg",
+      "./imgjson/9cardss.jpg",
+      "./imgjson/9cardsss.jpg",
+      "./imgjson/9card.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "Buzo",
+      "id": "Buzo"
     },
-    "precio": 1000
+    "precio": 539910
   },
   {
     "id": "abrigo-010",
-    "titulo": "Abrigo 04",
+    "titulo": "Pantalon K K11",
     "imagen": [
-      "./imgjson/4cards.jpg",
-      "./imgjson/4cardss.jpg",
-      "./imgjson/4cardsss.jpg"
+      "./imgjson/10cards.jpg",
+      "./imgjson/10cardss.jpg",
+      "./imgjson/10cardsss.jpg",
+      "./imgjson/10card.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "pantalon",
+      "id": "pantalon"
     },
-    "precio": 1000
+    "precio": 120000
   },
   {
     "id": "abrigo-011",
-    "titulo": "Abrigo 04",
+    "titulo": "Parachute Y2K",
     "imagen": [
-      "./imgjson/4cards.jpg",
-      "./imgjson/4cardss.jpg",
-      "./imgjson/4cardsss.jpg"
+      "./imgjson/11cards.jpg",
+      "./imgjson/11cardss.jpg",
+      "./imgjson/11cardss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "pantalon",
+      "id": "pantalon"
     },
-    "precio": 1000
+    "precio": 123000
   },
   {
     "id": "abrigo-012",
-    "titulo": "Abrigo 04",
+    "titulo": "Parachute Brand Deni12",
     "imagen": [
-      "./imgjson/4cards.jpg",
-      "./imgjson/4cardss.jpg",
-      "./imgjson/4cardsss.jpg"
+      "./imgjson/12card.jpg",
+      "./imgjson/12cards.jpg",
+      "./imgjson/12cardss.jpg"
     ],
     "categoria": {
-      "nombre": "Abrigos",
-      "id": "abrigos"
+      "nombre": "pantalon",
+      "id": "pantalon"
     },
-    "precio": 1000
+    "precio": 213322
   }
 ]
