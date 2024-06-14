@@ -2,14 +2,20 @@
   background-color: rgba(95, 158, 160, 0);
   width: 100%;
   height: 100vh;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../imagenes/2-slide-1716490239382-3119794843-66e9618c011a670019ab5f067ba74fbf1716490241-1920-1920.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-carrito {
-  background-color: aliceblue;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.856);
   width: 50%;
-  height: 100px;
+  height: 150px;
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -17,46 +23,52 @@
   border-radius: 5px;
   overflow: hidden;
 }
+
 .img-carrito {
   height: 100%;
 }
 .info-carrito {
   display: flex;
-  background-color: rgba(0, 255, 255, 0);
-  width: 80%;
-  padding: 30px;
-  gap: 50px;
+  background-color: rgba(0, 255, 85, 0);
+  width: 100%;
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
 }
 .nombre-producto-carrito {
-  background-color: rgba(14, 184, 127, 0.63);
-  width: 40%;
-  height: 26px;
-  margin: auto;
-  margin-right: 10%;
+  background-color: rgba(14, 184, 127, 0);
+  margin-right: 40px;
 }
 .cantidad {
   font-weight: bold;
+  background-color: rgba(0, 255, 255, 0);
+  display: inline-block;
+  padding: 10px;
 }
+
 .price-carrito {
-  background-color: rgba(139, 69, 19, 0);
-  height: 40px;
-  margin: auto;
-  width: 20%;
-  font-weight: bold;
+  display: inline-block;
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgba(178, 34, 34, 0);
 }
+
 .finalizar-carrito {
   display: flex;
-  background-color: rgba(255, 228, 196, 0);
-  width: 60%;
-  height: 10%;
+  background-color: rgba(190, 120, 34, 0.884);
+  width: 50%;
   justify-content: center;
   flex-direction: column;
+  margin-top: 40px;
 }
 .finalizar-compra {
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(220, 230, 230, 0.829);
   padding: 5px;
   border-radius: 5px;
   width: 12%;
+  height: 40px;
   margin: auto;
   cursor: pointer;
 }
@@ -64,3 +76,5 @@
   background-color: aqua;
   margin-right: 17%;
 }
+
+

@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const idBoton = e.currentTarget.id;
 
     const productosAgregados = productos.find((item) => item.id === idBoton);
-   
 
     const productoExistente = productosEnCarrito.find(
       (product) => product.id === idBoton
@@ -144,11 +143,14 @@ document.addEventListener("DOMContentLoaded", () => {
         imagen: productosAgregados.imagen[0],
         cantidad: 1,
       };
+  
       productosEnCarrito.push(productoPushCarrito);
+
+      alert(`Se agrego al carrito ${productosAgregados.titulo}`)
     }
 
     actualizarNumeroCarrito();
-    console.log(productosEnCarrito)
+ 
     const setearLocalStorage = JSON.stringify(productosEnCarrito);
     saveLocalStorage(setearLocalStorage);
   }
