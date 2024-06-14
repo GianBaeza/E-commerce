@@ -327,7 +327,7 @@ form button {
 
 /*MODAL*/
 .totalContainer {
-  background-color: #0000004b;
+  background-color: #35343498;
   display: none;
   position: fixed;
   top: 0;
@@ -339,7 +339,7 @@ form button {
   backdrop-filter: blur(1.5px);
 }
 .contenedor-modal {
-  background-color: rgb(8, 180, 180);
+  background-color: rgb(255, 255, 255);
   display: flex;
   width: 70%;
   height: 70vh;
@@ -382,33 +382,53 @@ form button {
   transition: color 0.3s ease;
 }
 
-
 .cerrar-modal:hover {
   color: #333;
 }
 .section-modal h2 {
   font-size: 40px;
   font-weight: bold;
-  background-color: rgba(245, 222, 179, 0.041);
+  background-color: rgba(245, 222, 179, 0);
 }
 
 .section-modal p {
   font-size: 25px;
   width: 60%;
 }
-.modal-price{
+
+.modal-price {
   color: rgb(255, 255, 255);
 }
-
-.modal-button {
-  bottom: none;
-  background-color: rgba(250, 235, 215, 0);
-  border-radius: 4px;
+.modal-sizes {
+  background-color: #00000000;
+  height: 30px;
+  width: 60%;
+  font-size: 20px;
+  display: flex;
+  color: #fff;
+  list-style: none;
+  gap: 5px;
+  align-items: center;
   padding: 5px;
-  width: 30%;
-  margin: auto;
-  cursor: pointer;
 }
+.button-talle {
+  background-color: #c7090900;
+  height: 30px;
+  width: 35px;
+  border: none;
+  border-left: 1px solid;
+  padding-left: 5px;
+}
+
+.button-talle:hover {
+  color: #494747;
+}
+.modal-price {
+  background-color: #00000000;
+  
+  
+}
+
 
 @media screen and (max-width: 800px) {
   header {

@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   let productos = [];
+  const productosEnCarrito = [];
 
-  const url = "productos.json";
   function cargarProductos() {
-    fetch(url)
+    fetch("./productos.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("No se pudo obtener el archivo");
@@ -32,13 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`Error: ${err}`);
       });
   }
+
   cargarProductos();
 
   function mostrarProductosCard(productos) {
     containerCards.innerHTML = "";
+
     productos.forEach((item, index) => {
-      const { id, imagen, titulo, precio, sizes, categoria, descripcion } =
-        item;
+      const { id, imagen, titulo, precio, sizes, descripcion } = item;
       const divCard = document.createElement("div");
       divCard.classList.add("card");
 
@@ -49,7 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const carouselInner = document.createElement("div");
       carouselInner.classList.add("carousel-inner");
 
-      imagen.forEach((imgSrc, imageIndex) => {
+      const imgCard = item.imagen;
+      imgCard.forEach((imgsrc, imageIndex) => {
         const carouselItem = document.createElement("div");
         carouselItem.classList.add("carousel-item");
 
@@ -58,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const img = document.createElement("img");
-        img.src = imgSrc;
+        img.src = imgsrc.url;
         img.alt = "img";
         img.classList.add("d-block", "w-100", "card-img");
         carouselItem.appendChild(img);
@@ -117,31 +119,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
       buttonComprar.addEventListener("click", comprarItem);
       buttonVer.addEventListener("click", () => {
-        abrirModal(imagen, titulo, precio, descripcion);
+        abrirModal(imagen, titulo, precio, descripcion, sizes);
       });
     });
   }
-
-  const productosEnCarrito = [];
 
   function comprarItem(e) {
     const idBoton = e.currentTarget.id;
 
     const productosAgregados = productos.find((item) => item.id === idBoton);
+   
 
-    if (productosEnCarrito.some((item) => item.id === idBoton)) {
-      const index = productosEnCarrito.findIndex((item) => item.id === idBoton);
-      productosEnCarrito[index].cantidad++;
-    } else {
-      productosAgregados.cantidad = 1;
-      productosEnCarrito.push(productosAgregados);
-      /// aca podriamos poner la notificacion que se agrego el producto correctamente
-    }
-    actualizarNumeroCarrito();
-    localStorage.setItem(
-      "Productos-en-carrito",
-      JSON.stringify(productosEnCarrito)
+    const productoExistente = productosEnCarrito.find(
+      (product) => product.id === idBoton
     );
+
+    if (productoExistente) {
+      productoExistente.cantidad++;
+    } else {
+      const productoPushCarrito = {
+        id: productosAgregados.id,
+        titulo: productosAgregados.titulo,
+        precio: productosAgregados.precio,
+        imagen: productosAgregados.imagen[0],
+        cantidad: 1,
+      };
+      productosEnCarrito.push(productoPushCarrito);
+    }
+
+    actualizarNumeroCarrito();
+    console.log(productosEnCarrito)
+    const setearLocalStorage = JSON.stringify(productosEnCarrito);
+    saveLocalStorage(setearLocalStorage);
   }
 
   function actualizarNumeroCarrito() {
@@ -149,7 +158,11 @@ document.addEventListener("DOMContentLoaded", () => {
     numeroCarrito.innerText = numero;
   }
 
-  function abrirModal(imagenes, titulo, precio, descripcion) {
+  function saveLocalStorage(array) {
+    localStorage.setItem("productosCarrito", array);
+  }
+
+  function abrirModal(imagenes, titulo, precio, descripcion, sizes) {
     const bodyContainer = document.createElement("div");
     bodyContainer.classList.add("totalContainer");
 
@@ -180,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const img = document.createElement("img");
       img.classList.add("d-block", "w-100", "modal-img");
-      img.src = imagen;
+      img.src = imagen.url;
       img.alt = "imagenDetalle";
 
       carouselItem.appendChild(img);
@@ -233,19 +246,23 @@ document.addEventListener("DOMContentLoaded", () => {
     descripcionModal.classList.add("modal-description");
     descripcionModal.textContent = descripcion;
 
+    const talle = document.createElement("ul");
+    talle.classList.add("modal-sizes");
+    sizes.forEach((size) => {
+      const sizeItem = document.createElement("li");
+      sizeItem.textContent = size;
+      talle.appendChild(sizeItem);
+    });
+
     const precioModal = document.createElement("h3");
     precioModal.classList.add("modal-price");
     precioModal.textContent = `$ ${precio}`;
 
-    const botonAgregarCarrito = document.createElement("button");
-    botonAgregarCarrito.classList.add("modal-button");
-    botonAgregarCarrito.textContent = "Agregar al carrito";
-
     sectionModal.appendChild(botonCerrar);
     sectionModal.appendChild(tituloModal);
     sectionModal.appendChild(descripcionModal);
+    sectionModal.appendChild(talle);
     sectionModal.appendChild(precioModal);
-    sectionModal.appendChild(botonAgregarCarrito);
 
     containerModal.appendChild(carousel);
     containerModal.appendChild(sectionModal);

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="/Styles/index.css" />
+    <link rel="stylesheet" href="/Styles/carrito.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="logo" class="logo">Kof-K</h1>
+
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav id="nav" class="nav">
+        <button id="cerrar" class="cerrar-menu">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <hr />
+        <ul class="nav-list">
+          <li><a class="fixed" href="/index.html#Contacto">Contacto</a></li>
+          <li>
+            <a class="fixed" href="/index.html#Indumentaria">Indumentaria</a>
+          </li>
+          <li>
+            <a class="fixed" href="/index.html#sobreNosotros">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="/pages/carrito.html" class="iconCart">
+              <i class="bi bi-bag"></i
+              ><span class="numeroCarrito" id="numCarrito"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-carrito" class="main-carrito"></main>
+    <script type="module" src="/components/carrito.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
