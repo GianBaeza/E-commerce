@@ -135,6 +135,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (productoExistente) {
       productoExistente.cantidad++;
+     
+
     } else {
       const productoPushCarrito = {
         id: productosAgregados.id,
@@ -143,14 +145,14 @@ document.addEventListener("DOMContentLoaded", () => {
         imagen: productosAgregados.imagen[0],
         cantidad: 1,
       };
-  
-      productosEnCarrito.push(productoPushCarrito);
 
-      alert(`Se agrego al carrito ${productosAgregados.titulo}`)
+      productosEnCarrito.push(productoPushCarrito);
+      alertNotificacion(productosAgregados.titulo);
     }
 
     actualizarNumeroCarrito();
- 
+    
+
     const setearLocalStorage = JSON.stringify(productosEnCarrito);
     saveLocalStorage(setearLocalStorage);
   }
