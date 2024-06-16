@@ -428,6 +428,7 @@ form button {
 }
 .whatsapp-icon {
   position: fixed;
+
   bottom: 60px;
   right: 60px;
   background-color: #25d366;

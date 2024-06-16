@@ -51,7 +51,7 @@ function mostrarProductosCarrito(productos) {
 
   const total = document.createElement("p");
   total.className = "total-carrito";
-  //   total.textContent = `Total : $ ${calcularTotal(productos)}`;
+  total.textContent = `Total : $ ${calcularTotal()}`;
   const buttonFinalizarCompra = document.createElement("button");
   buttonFinalizarCompra.className = "finalizar-compra";
   buttonFinalizarCompra.innerText = "Finalizar Compra";
@@ -60,4 +60,9 @@ function mostrarProductosCarrito(productos) {
   containerFinalizarCarrito.appendChild(buttonFinalizarCompra);
 
   mainContainer.appendChild(containerFinalizarCarrito);
+}
+
+
+function calcularTotal() {
+  return productos.reduce((acc, item) => acc + item.precio * item.cantidad, 0);
 }

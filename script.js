@@ -135,8 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (productoExistente) {
       productoExistente.cantidad++;
-     
-
     } else {
       const productoPushCarrito = {
         id: productosAgregados.id,
@@ -151,7 +149,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     actualizarNumeroCarrito();
-    
 
     const setearLocalStorage = JSON.stringify(productosEnCarrito);
     saveLocalStorage(setearLocalStorage);
