@@ -3,12 +3,21 @@
   margin: 0;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 header {
   background-color: rgba(187, 18, 18, 0);
@@ -55,13 +64,14 @@ header hr {
   color: black;
 }
 .iconCart {
-  height: 20px;
+  height: 50px;
   background-color: rgba(0, 255, 255, 0);
   border: none;
+  
 }
 .numeroCarrito {
   position: absolute;
-  right: -7px;
+  right: -15px;
   background-color: rgba(110, 109, 109, 0);
   color: rgba(0, 0, 0, 0.637);
   border-radius: 20%;
@@ -200,9 +210,9 @@ header hr {
 
 /*section sobre nosotros*/
 .Sobre-Nosotros {
-  background-color: #83818100;
+  background-color: #00000002;
   height: 90vh;
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -210,14 +220,13 @@ header hr {
   gap: 20px;
 }
 .img-Sobre-nosotros {
-  height: 600px;
+  height: 700px;
 }
 .Sobre-nosotros-info {
   background-color: #ad1a1a00;
-  height: 600px;
-  width: 40%;
-  padding-top: 50px;
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #838191;
 }
 .Sobre-nosotros-info h1,
 p {
@@ -227,6 +236,7 @@ p {
 }
 .Sobre-Nosotros h1 {
   font-size: 50px;
+  color: #000000cb;
 }
 .Sobre-Nosotros p {
   background-color: #83818100;
