@@ -266,6 +266,7 @@
       "nombre": "pantalon",
       "id": "pantalon"
     },
-    "precio": 213322
+    "precio": 213322,
+    "sizes": ["S", "M", "L", "XL", "XXL"]
   }
 ]
