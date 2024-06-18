@@ -1,23 +1,31 @@
-const carrusel = document.querySelector(".carrusel-items");
-let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
+const contenedorCarrusel = document.querySelector(".carrusel-items");
+
+
+let maxDesplazamientoIzquierda =
+  contenedorCarrusel.scrollWidth - contenedorCarrusel.clientWidth;
 let intervalo = null;
-let step = 1;
-const start = () => {
+let paso = 1;
+
+const iniciarDesplazamiento = () => {
   intervalo = setInterval(function () {
-    carrusel.scrollLeft = carrusel.scrollLeft + step;
-    if (carrusel.scrollLeft >= maxScrollLeft || carrusel.scrollLeft <= 0) {
-      step = -step; // Invierte la dirección del desplazamiento
+    contenedorCarrusel.scrollLeft = contenedorCarrusel.scrollLeft + paso;
+    if (
+      contenedorCarrusel.scrollLeft >= maxDesplazamientoIzquierda ||
+      contenedorCarrusel.scrollLeft <= 0
+    ) {
+      paso = -paso;
     }
   }, 10);
 };
 
-const stop = () => {
+const detenerDesplazamiento = () => {
   clearInterval(intervalo);
 };
 
-carrusel.addEventListener("mouseover", () => {
-  stop();
+contenedorCarrusel.addEventListener("mouseover", () => {
+  detenerDesplazamiento();
 });
-carrusel.addEventListener("mouseout", () => {
-  start();
+
+contenedorCarrusel.addEventListener("mouseout", () => {
+  iniciarDesplazamiento();
 });

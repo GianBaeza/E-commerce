@@ -6,16 +6,26 @@
     <title>Carrito</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!---Bootstrap-->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />    <!---front-->
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <!--animated -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./Styles/index.css" />
     <link rel="stylesheet" href="/Styles/carrito.css" />
   </head>
   <body>
     <header>
-      <h1 id="logo" class="logo">Kof-K</h1>
+      <a href="/index.html" class="logo"><h1 id="logo" class="logo">Kof-K</h1></a>
 
       <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
       <nav id="nav" class="nav">
@@ -91,10 +101,11 @@
             />GitHub</a
           >
         </li>
-        <a href="#logo" class="inicioFooter">Ir al Inicio</a>
+        <a href="./index.html" class="inicioFooter">Ir al Inicio</a>
       </ul>
       <p class="copy">&copy; 2024 Kof-K. Todos los derechos reservados.</p>
-   
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/components/carrito.js"></script>
   </body>
 </html>
