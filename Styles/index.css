@@ -469,7 +469,468 @@ form button {
   transform: scale(2.2);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1298px) {
+  header {
+    background-color: rgba(61, 58, 58, 0.164);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .logo {
+    background-color: rgba(23, 194, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+  }
+
+  hr {
+    display: none;
+  }
+  .nav {
+    background-color: rgba(24, 175, 175, 0);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .numeroCarrito {
+    position: absolute;
+    left: 98%;
+    background-color: rgba(180, 17, 17, 0);
+    color: rgba(0, 0, 0, 0.637);
+    border-radius: 20%;
+    padding: 0px 5px;
+    font-size: 15px;
+  }
+
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 137, 4, 0);
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .img-main {
+    width: 60%;
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .container-main h2 {
+    background-color: rgba(218, 4, 4, 0);
+    font-size: 30px;
+    text-align: left;
+    padding: 40px;
+    margin-bottom: 80px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .container-card {
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+  }
+
+  .modal-img {
+    object-fit: cover;
+  }
+  .contenedor-modal {
+    background-color: #ffffff;
+    height: 50%;
+    margin: auto;
+  }
+  .carousel-modal {
+    background-color: #00000000;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .section-modal {
+    background-color: rgba(204, 204, 12, 0);
+    width: 100%;
+    height: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .cerrar-modal:hover {
+    color: #333;
+  }
+  .section-modal h2 {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    background-color: rgba(14, 192, 29, 0);
+    margin-bottom: 30px;
+  }
+  .section-modal p {
+    background-color: #ca0b0b00;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+  }
+  .carrusel-items {
+    width: 100%;
+  }
+  .modal-price {
+    color: rgb(0, 0, 0);
+  }
+  .Sobre-Nosotros {
+    background-color: #d6910600;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .img-Sobre-nosotros {
+    height: auto;
+    margin: auto;
+    width: 50%;
+    margin-top: 49px;
+    padding: 5px;
+  }
+  .Sobre-Nosotros {
+    gap: 0px;
+  }
+  .Sobre-nosotros-info {
+    background-color: #1aad6800;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    color: #838191;
+    margin: auto;
+    width: 90%;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Sobre-Nosotros h3 {
+    font-size: 40px;
+    color: #000000cb;
+    background-color: #25d36500;
+  }
+  .Sobre-Nosotros p {
+    background-color: #b90b0b00;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+  }
+  footer {
+    background-color: #d30e0e00;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    gap: 0px;
+  }
+  .mapa {
+    height: 300px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 5px;
+  }
+  form {
+    background-color: #55555523;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .form-redes {
+    background-color: #25d36500;
+    padding-top: 15px;
+    height: 300px;
+    flex-direction: none;
+    display: flex;
+  }
+  .form-h3 {
+    color: #000000;
+    text-align: center;
+  }
+  .copy {
+    padding: 10px;
+  }
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+  }
+  .whatsapp-icon a {
+    font-size: 14px;
+  }
+  .whatsappimg {
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: rgba(85, 85, 85, 0);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between; /* Reemplaza 'gap' con 'justify-content' */
+  }
+  .logo {
+    background-color: rgba(23, 194, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px; /* Reducir el tamaño del logo */
+    font-style: normal;
+  }
+  .numeroCarrito {
+    position: absolute;
+    left: 100px; /* Ajustar según diseño */
+    background-color: rgba(20, 143, 102, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+    padding: 2px 5px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .abrir-menu,
+  .cerrar-menu {
+    background-color: rgba(0, 255, 255, 0);
+    display: block;
+    border: 0;
+    font-size: 1.75rem;
+    cursor: pointer;
+  }
+  .cerrar-menu {
+    margin-right: 20px;
+    color: #fff;
+  }
+  hr {
+    display: none;
+  }
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000dc;
+    box-shadow: 0 0 0 1 100vmax rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 240px;
+    height: 100vh;
+  }
+  .nav-list {
+    background-color: rgba(15, 207, 207, 0);
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    position: none;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+  .nav-list a {
+    color: rgb(253, 253, 253);
+  }
+  .nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .numeroCarrito {
+    margin-left: 10px;
+    background-color: rgba(184, 12, 12, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+    font-size: 18px;
+  }
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 137, 4, 0);
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .img-main {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .container-main h2 {
+    background-color: rgba(218, 4, 4, 0);
+    font-size: 30px;
+    text-align: left;
+    padding: 40px;
+    margin-bottom: 80px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .container-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contenedor-modal {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+  }
+  .modal-img {
+    object-fit: cover;
+  }
+  .carousel-modal {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  .section-modal {
+    background-color: rgba(204, 204, 12, 0);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .cerrar-modal:hover {
+    color: #333;
+  }
+  .section-modal h2 {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    background-color: rgba(14, 192, 29, 0);
+    margin-bottom: 30px;
+  }
+  .section-modal p {
+    background-color: #ca0b0b00;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+  }
+  .carrusel-items {
+    width: 100%;
+  }
+  .Sobre-Nosotros {
+    background-color: #d6910600;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .img-Sobre-nosotros {
+    height: auto;
+    margin: auto;
+    width: 100%;
+    margin-top: 49px;
+    padding: 5px;
+  }
+  .Sobre-nosotros-info {
+    background-color: #1aad6800;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    color: #838191;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+  }
+  .Sobre-Nosotros h3 {
+    font-size: 40px;
+    color: #000000cb;
+    background-color: #25d36500;
+  }
+  .Sobre-Nosotros p {
+    background-color: #b90b0b00;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+  }
+  footer {
+    background-color: #d30e0e00;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    gap: 0px;
+  }
+  .mapa {
+    height: 300px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 5px;
+  }
+  form {
+    background-color: #55555523;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .form-redes {
+    background-color: #25d36500;
+    padding-top: 15px;
+    height: 300px;
+    flex-direction: none;
+    display: flex;
+  }
+  .form-h3 {
+    color: #000000;
+    text-align: center;
+  }
+  .copy {
+    padding: 10px;
+  }
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+  }
+  .whatsapp-icon a {
+    font-size: 14px;
+  }
+  .whatsappimg {
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 620px) {
   header {
     background-color: rgba(85, 85, 85, 0);
     display: flex;
@@ -667,5 +1128,60 @@ form button {
     font-size: 20px;
     width: 100%;
     margin: auto;
+  }
+
+  footer {
+    background-color: #d30e0e00;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    gap: 0px;
+  }
+  .mapa {
+    height: 300px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 5px;
+  }
+  form {
+    background-color: #55555523;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .form-redes {
+    background-color: #25d36500;
+    padding-top: 15px;
+    height: 300px;
+    flex-direction: none;
+    display: flex;
+  }
+  .form-h3 {
+    color: #000000;
+    text-align: center;
+  }
+  .copy {
+    padding: 10px;
+  }
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+  }
+  .whatsapp-icon a {
+    font-size: 14px;
+  }
+  .whatsappimg {
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
   }
 }

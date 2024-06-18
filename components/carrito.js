@@ -41,7 +41,7 @@ function mostrarProductosCarrito() {
 
       const precioTotal = document.createElement("p");
       precioTotal.className = "price-carrito";
-      precioTotal.textContent = `Precio Total: $ ${precio * cantidad}`;
+      precioTotal.textContent = `Total: $ ${precio * cantidad}`;
 
       const eliminarProducto = document.createElement("button");
       eliminarProducto.className = "eliminar-producto-delcarrito";

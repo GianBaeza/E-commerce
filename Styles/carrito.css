@@ -35,7 +35,7 @@
 }
 .container-carrito {
   border: 1px solid black;
-  background-color: rgba(255, 255, 255, 0.856);
+  background-color: rgba(194, 189, 189, 0.856);
   width: 50%;
   height: 150px;
   margin-top: 20px;
@@ -51,7 +51,7 @@
 }
 .info-carrito {
   display: flex;
-  background-color: rgba(0, 255, 85, 0);
+  background-color: rgba(230, 215, 5, 0);
   width: 100%;
   gap: 40px;
   text-align: center;
@@ -104,6 +104,7 @@
   cursor: pointer;
   font-size: 22px;
   border: 1px solid black;
+  background-color: #00000000;
 }
 .finalizar-compra {
   font-size: 20px;
@@ -172,4 +173,378 @@
   background-color: rgba(0, 0, 0, 0.24) !important;
   color: white !important;
   border: 1px solid black !important;
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .abrir-menu,
+  .cerrar-menu {
+    background-color: rgba(11, 218, 218, 0);
+    display: block;
+    border: 0;
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #fff;
+  }
+  .cerrar-menu {
+    margin-right: 20px;
+    color: #fff;
+  }
+  .logo {
+    color: #fff;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000ce;
+    box-shadow: 0 0 0 1 100vmax rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    flex-direction: column;
+    align-items: end;
+    height: 100vh;
+    padding-right: 30px;
+  }
+
+  .nav-list {
+    background-color: rgba(15, 207, 207, 0);
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    position: none;
+    padding-bottom: 320px;
+  }
+  .nav-list a {
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-carrito {
+    padding-top: 30%;
+  }
+  .container-carrito {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+  }
+  .img-carrito {
+    height: 100%;
+  }
+  .nombre-producto-carrito {
+    background-color: rgba(14, 184, 127, 0);
+    font-size: 15px;
+    width: auto;
+    margin: auto;
+  }
+
+  .info-carrito {
+    display: flex;
+    background-color: rgba(233, 243, 236, 0);
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+    overflow: hidden;
+    padding: 5px;
+  }
+
+  .cantidad {
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0);
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .price-carrito {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(178, 34, 34, 0);
+  }
+
+  .finalizar-carrito {
+    display: flex;
+    background-color: rgba(190, 120, 34, 0);
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+  }
+
+  .eliminar-producto-delcarrito {
+    height: 40px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: #00000000;
+  }
+  .total-carrito {
+    background-color: rgba(255, 255, 255, 0.781);
+    font-size: 15px;
+    justify-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  .finalizar-compra {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .footer-carrito {
+    background-color: #df232300;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    height: 23vh;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+  }
+  .form-redes-carrito {
+    display: flex;
+    gap: 0px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .form-redes-carrito li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(15, 207, 207, 0);
+  }
+  .form-redes-carrito li a {
+    background-color: #b1242400;
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+    list-style: none;
+  }
+  .icon-redes {
+    height: 30px;
+    margin-right: 5px;
+  }
+  .form-redes-carrito .inicioFooter {
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .abrir-menu,
+  .cerrar-menu {
+    background-color: rgba(11, 218, 218, 0);
+    display: block;
+    border: 0;
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #fff;
+  }
+  .cerrar-menu {
+    margin-right: 20px;
+    color: #fff;
+  }
+  .logo {
+    color: #fff;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000ce;
+    box-shadow: 0 0 0 1 100vmax rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    flex-direction: column;
+    align-items: end;
+    height: 100vh;
+    padding-right: 30px;
+  }
+
+  .nav-list {
+    background-color: rgba(15, 207, 207, 0);
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    position: none;
+    padding-bottom: 320px;
+  }
+  .nav-list a {
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-carrito {
+    padding-top: 30%;
+  }
+  .container-carrito {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+  }
+  .img-carrito {
+    height: 100%;
+  }
+  .nombre-producto-carrito {
+    background-color: rgba(14, 184, 127, 0);
+    font-size: 15px;
+    width: auto;
+    margin: auto;
+  }
+
+  .info-carrito {
+    display: flex;
+    background-color: rgba(233, 243, 236, 0);
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+    overflow: hidden;
+    padding: 5px;
+  }
+
+  .cantidad {
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0);
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .price-carrito {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(178, 34, 34, 0);
+  }
+
+  .finalizar-carrito {
+    display: flex;
+    background-color: rgba(190, 120, 34, 0);
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+  }
+
+  .eliminar-producto-delcarrito {
+    height: 40px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: #00000000;
+  }
+  .total-carrito {
+    background-color: rgba(255, 255, 255, 0.781);
+    font-size: 15px;
+    justify-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  .finalizar-compra {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .footer-carrito {
+    background-color: #df232300;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    height: 23vh;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+  }
+  .form-redes-carrito {
+    display: flex;
+    gap: 0px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .form-redes-carrito li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(15, 207, 207, 0);
+  }
+  .form-redes-carrito li a {
+    background-color: #b1242400;
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+    list-style: none;
+  }
+  .icon-redes {
+    height: 30px;
+    margin-right: 5px;
+  }
+  .form-redes-carrito .inicioFooter {
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+  }
 }
