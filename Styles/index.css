@@ -1028,9 +1028,10 @@ form button {
     align-items: center;
     margin: auto;
     padding: 10px;
+    padding-top: 50px;
   }
   .img-main {
-    height: 400px;
+    height: 50%;
     border-radius: 20px;
   }
   .container-main h2 {

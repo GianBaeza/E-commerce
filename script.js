@@ -135,6 +135,7 @@ function comprarItem(e) {
 
   if (productoExistente) {
     productoExistente.cantidad++;
+    alertNotificacion(productosAgregados.titulo);
   } else {
     const productoPushCarrito = {
       id: productosAgregados.id,

@@ -1,8 +1,11 @@
+c;
+
 function alertNotificacion(titulo) {
   const message = `Se agregó ${titulo} al Carrito`;
+
   return Toastify({
     text: message,
-    duration: 2400,
+    duration: 1000,
     destination: "./carrito.html",
     newWindow: true,
     close: true,
