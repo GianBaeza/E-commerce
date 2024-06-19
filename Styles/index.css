@@ -374,7 +374,7 @@ form button {
 }
 
 .section-modal {
-  background-color: rgba(204, 204, 12, 0.801);
+  background-color: rgba(204, 204, 12, 0);
   width: 50%;
   height: 90%;
   display: flex;

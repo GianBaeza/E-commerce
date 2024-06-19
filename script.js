@@ -147,7 +147,7 @@ function comprarItem(e) {
     productosEnCarrito.push(productoPushCarrito);
     alertNotificacion(productosAgregados.titulo);
   }
-   actualizarNumeroCarrito()
+  actualizarNumeroCarrito();
   const setearLocalStorage = JSON.stringify(productosEnCarrito);
   saveLocalStorage(setearLocalStorage);
 }
