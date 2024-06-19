@@ -33,7 +33,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 270px;
+  height: 250px;
 }
 header hr {
   background-color: rgb(0, 0, 0);
@@ -99,6 +99,7 @@ header hr {
   align-items: center;
   margin: auto;
   padding: 20px;
+ 
 }
 .img-main {
   height: 650px;
@@ -1004,7 +1005,6 @@ input {
     align-items: end;
     padding-bottom: 260px;
     height: 100vh;
-   
   }
 
   .nav-list {
@@ -1022,7 +1022,6 @@ input {
   .nav-visible {
     opacity: 1;
     visibility: visible;
-  
   }
   .numeroCarrito {
     margin-left: 10px;
