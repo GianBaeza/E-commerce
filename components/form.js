@@ -61,5 +61,37 @@ function enviarmail() {
     From: "gianb04@gmail.com",
     Subject: "This is the subject",
     Body: bodyMensaje,
-  }).then((message) => alert(message));
+  }).then((message) => {
+    if (message === "OK") {
+      Toastify({
+        text: "El formulario ha sido enviado con éxito",
+        duration: 3000,
+        close: true,
+        gravity: "top",
+        position: "center",
+        stopOnFocus: true,
+        style: {
+          background: "green",
+          border: "2px solid black",
+          color: "white",
+          textAlign: "center",
+        },
+      }).showToast();
+    } else {
+      Toastify({
+        text: "No se ha podido enviar el formulario correctamente",
+        duration: 1100,
+        close: true,
+        gravity: "top",
+        position: "center",
+        stopOnFocus: true,
+        style: {
+          background: "red",
+          border: "2px solid black",
+          color: "white",
+          textAlign: "center",
+        },
+      }).showToast();
+    }
+  });
 }
