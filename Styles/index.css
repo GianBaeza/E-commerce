@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 h1,
 h2,
@@ -443,6 +448,7 @@ form button {
 }
 .modal-price {
   background-color: #00000000;
+  color: #000000;
 }
 .whatsapp-icon {
   position: fixed;
@@ -992,15 +998,13 @@ input {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #000000dc;
-    box-shadow: 0 0 0 1 100vmax rgba(0, 0, 0, 0.5);
+    background-color: #050505dc;
     opacity: 0;
-    visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.5s ease;
-    flex-direction: column;
     align-items: end;
-    padding-bottom: 240px;
+    padding-bottom: 260px;
     height: 100vh;
+   
   }
 
   .nav-list {
@@ -1010,7 +1014,6 @@ input {
     gap: 30px;
     position: none;
     padding-right: 20px;
-    margin-top: 30px;
   }
   .nav-list a {
     color: rgb(253, 253, 253);
@@ -1019,6 +1022,7 @@ input {
   .nav-visible {
     opacity: 1;
     visibility: visible;
+  
   }
   .numeroCarrito {
     margin-left: 10px;
@@ -1062,7 +1066,7 @@ input {
     flex-direction: column;
     border: 1px solid black;
     width: 90%;
-    height: 90%;
+    height: 95%;
   }
   .modal-img {
     object-fit: cover;
@@ -1073,7 +1077,7 @@ input {
     height: 100vh;
   }
   .section-modal {
-    background-color: rgba(204, 204, 12, 0);
+    background-color: rgba(224, 224, 12, 0);
     width: 100%;
     height: 100%;
     height: auto;
@@ -1099,8 +1103,12 @@ input {
     font-size: 17px;
     width: 100%;
     text-align: center;
-    padding: 4px;
+    padding: 5px;
   }
+  .modal-price {
+    color: #000000;
+  }
+
   .carrusel-items {
     width: 100%;
   }

@@ -5,6 +5,11 @@ const containerCards = document.getElementById("container-Card");
 const numeroCarrito = document.getElementById("numCarrito");
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("click", (e) => {
+    if (!nav.contains(e.target) && !abrir.contains(e.target)) {
+      nav.classList.remove("nav-visible");
+    }
+  });
   abrir.addEventListener("click", () => {
     nav.classList.add("nav-visible");
   });
@@ -245,14 +250,6 @@ function abrirModal(imagenes, titulo, precio, descripcion, sizes) {
   descripcionModal.classList.add("modal-description");
   descripcionModal.textContent = descripcion;
 
-  const talle = document.createElement("ul");
-  talle.classList.add("modal-sizes");
-  sizes.forEach((size) => {
-    const sizeItem = document.createElement("li");
-    sizeItem.textContent = size;
-    talle.appendChild(sizeItem);
-  });
-
   const precioModal = document.createElement("h3");
   precioModal.classList.add("modal-price");
   precioModal.textContent = `$ ${precio}`;
@@ -260,7 +257,6 @@ function abrirModal(imagenes, titulo, precio, descripcion, sizes) {
   sectionModal.appendChild(botonCerrar);
   sectionModal.appendChild(tituloModal);
   sectionModal.appendChild(descripcionModal);
-  sectionModal.appendChild(talle);
   sectionModal.appendChild(precioModal);
 
   containerModal.appendChild(carousel);

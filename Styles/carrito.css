@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+}
+
 .main-carrito {
   background-image: url(../imagenes/2-slide-1716490239382-3119794843-66e9618c011a670019ab5f067ba74fbf1716490241-1920-1920.webp);
   background-position: center center;
@@ -175,8 +182,6 @@
   border: 1px solid black !important;
 }
 
-
-
 @media screen and (max-width: 620px) {
   .abrir-menu,
   .cerrar-menu {
@@ -318,7 +323,6 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  
   }
   .footer-carrito {
     background-color: #df232300;
@@ -504,7 +508,6 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  
   }
   .footer-carrito {
     background-color: #df232300;
