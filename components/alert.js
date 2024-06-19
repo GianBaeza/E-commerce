@@ -1,5 +1,3 @@
-c;
-
 function alertNotificacion(titulo) {
   const message = `Se agregó ${titulo} al Carrito`;
 

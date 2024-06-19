@@ -324,7 +324,10 @@ form textarea {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   padding: 10px;
-  height: 5px;
+}
+form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid black;
 }
 form button {
   width: 150px;
@@ -467,6 +470,12 @@ form button {
 
 .whatsapp-icon :hover {
   transform: scale(2.2);
+}
+.error-inputs {
+  border-bottom: 2px solid red;
+}
+input {
+  outline: none;
 }
 
 @media screen and (max-width: 1298px) {
